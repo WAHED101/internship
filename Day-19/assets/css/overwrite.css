@@ -1,0 +1,56 @@
+:root {
+  --simple-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  --theamcolor: #ff6426;
+  --font-sm: 12px;
+  --font-m: 13px;
+  --font-ml: 24px;
+  --font-theam: Lora;
+  --delay: 0.5s;
+  --title-l: 40px;
+}
+* {
+  font-family: var(--font-theam) !important;
+}
+/*----- My class -----*/
+.c-t {
+  color: var(--theamcolor) !important;
+}
+.b-t {
+  background-color: var(--theamcolor) !important;
+}
+.border-t {
+  border-color: var(--theamcolor) !important;
+}
+.s-s {
+  box-shadow: var(--simple-shadow) !important;
+}
+.f-sm {
+  font-size: var(--font-sm) !important;
+}
+.f-m {
+  font-size: var(--font-m) !important;
+}
+.f-ml {
+  font-size: var(--font-ml) !important;
+}
+.title {
+  font-size: var(--title-l);
+  position: relative;
+}
+.title::after {
+  width: 90px;
+  height: 10px;
+  position: absolute;
+  content: "";
+  bottom: 7px;
+  z-index: -1 !important;
+  left: 0;
+  background-color: #ff6426;
+}
+/*----- My class -----*/
+
+/* ----- btn overwrite ----- */
+.btn:hover {
+  color: var(--theamcolor) !important;
+}
+/* ----- btn overwrite ----- */

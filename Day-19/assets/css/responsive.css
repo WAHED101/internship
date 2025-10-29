@@ -1,0 +1,112 @@
+/* nav */
+@media (max-width: 344px) {
+  .navbar-toggler {
+    font-size: 15px;
+  }
+  .navbar-brand {
+    margin-right: 0px;
+    width: 60%;
+    transform: scale(0.7);
+  }
+  .navbar {
+    padding: 10px 0px !important;
+  }
+}
+/* nav */
+/* hero */
+@media (max-width: 1200px) {
+  .hero {
+    height: 100vh;
+    background: none;
+    background-color: #f0eed4;
+  }
+  .hero::after {
+    background: none;
+  }
+  .play-btn {
+    margin-left: 0px;
+  }
+  #pop_cards:after {
+    background: none !important;
+  }
+}
+/* hero */
+/* hero btn */
+@media (max-width: 992.9px) {
+  #hero_btn a {
+    padding: 10px;
+  }
+}
+@media (max-width: 346px) {
+  #hero_btn a {
+    padding: 8px;
+    font-size: 13px;
+  }
+}
+/* hero btn */
+/* book */
+@media (max-width: 1244px) {
+  #bookatabletitle h2 {
+    margin-bottom: 0rem !important;
+  }
+}
+@media (max-width: 992px) {
+  #bookinp {
+    margin-top: 1rem !important;
+  }
+  #bookinp button {
+    width: 30% !important;
+  }
+}
+@media (max-width: 768px) {
+  #book {
+    height: 130vh !important;
+  }
+}
+@media (max-width: 377px) {
+  #bookinp button {
+    font-size: 10px;
+  }
+}
+/* book */
+/* Feedback */
+@media (max-width: 992px) {
+  .line::after {
+    border: none !important;
+  }
+  .media {
+    flex-direction: column;
+  }
+  .media-body p {
+    font-size: 13px !important;
+  }
+  .media-body h4 {
+    font-size: 14px !important;
+  }
+  .carousel-indicators {
+    justify-content: start !important;
+    left: 4% !important;
+  }
+}
+@media (max-width: 383px) {
+  #feedback {
+    height: 120vh !important;
+  }
+}
+/* Feedback */
+/* menu */
+@media (max-width: 993px) {
+  .media-body {
+    align-self: center !important;
+    padding: 0px !important;
+    text-align: center;
+  }
+  .single_food_item img {
+    align-self: center !important;
+    border-radius: 50% !important;
+    margin: 0px !important;
+    border: none !important;
+    padding: 5px 0px !important;
+  }
+}
+/* menu */

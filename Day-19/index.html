@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dingo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!-- FontAwesome CDN - Primary -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- FontAwesome CDN - Backup -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.5.1/css/all.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/overwrite.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/animation.css" />
+  </head>
+  <body>
+    <!-- ###### NAV ###### -->
+    <nav class="navbar navbar-expand-lg px-5 py-3" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="./assets/img/logo.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <img src="assets/img/logo.png" alt="" />
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul
+              class="navbar-nav justify-content-center flex-grow-1 pe-3 gap-4"
+            >
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#hero">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#chefs">Chefs</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#blog"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Blog
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">Single blog</a></li>
+                  <li><a class="dropdown-item" href="#">Elements</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <a
+              class="btn c-t rounded-pill border px-4 border-3 border-white bg-white"
+              id="nav-book"
+              href="#book"
+            >
+              Book A Tabel
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- ###### NAV ###### -->
+
+    <!-- ###### Hero ###### -->
+    <div class="hero d-flex align-items-center" style="height: 160vh" id="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h4 class="c-t pb-3">Expensive But The Best</h4>
+            <h1 class="ff-2 display-4 fw-bold">
+              Deliciousness jumping into the mouth
+            </h1>
+            <p>
+              Together creeping heaven upon third dominion be upon won't
+              darkness rule land behold it created good saw after she'd Our set
+              living. Signs midst dominion creepeth morning
+            </p>
+            <div class="row">
+              <div class="col-md-12 mt-4" id="hero_btn">
+                <a
+                  href="#"
+                  class="btn border border-2 border-0 rounded-0 btn_2 position-relative"
+                  >Reservation
+                  <img
+                    class="ps-2 pb-1"
+                    src="./assets/img/icon/left_1.svg"
+                    alt=""
+                /></a>
+                <a href="#" class="btn btn_1"
+                  ><span class="p-2 play-btn"
+                    ><img src="./assets/img/icon/play.svg" alt="" /></span
+                  >Watch our story</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ###### Hero ###### -->
+
+    <!-- ###### Popular Dishes ###### -->
+    <div id="pop_cards" class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="fs-5 text-secondary">Popular Dishes</p>
+        </div>
+        <div class="col-md-12">
+          <h2 class="fw-bold title">Our Exclusive Items</h2>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-sm-6 col-lg-4">
+          <div class="card single_blog_item card-round">
+            <img
+              class="card-img-top"
+              src="./assets/img/food_item/food_item_1.png"
+              alt=""
+            />
+            <div class="card-body">
+              <h3 class="card-title">Indian Burger</h3>
+              <p class="card-text text-secondary">
+                Was brean shed moveth day yielding tree yielding day were female
+                and
+              </p>
+              <a
+                href="#"
+                class="mb-4 btn_3 d-inline-block position-relative z-1"
+                >Read More <img src="./assets/img/icon/left_2.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="card single_blog_item card-round">
+            <img
+              class="card-img-top"
+              src="./assets/img/food_item/food_item_2.png"
+              alt=""
+            />
+            <div class="card-body">
+              <h3 class="card-title">Indian Burger</h3>
+              <p class="card-text text-secondary">
+                Was brean shed moveth day yielding tree yielding day were female
+                and
+              </p>
+              <a
+                href="#"
+                class="mb-4 btn_3 d-inline-block position-relative z-1"
+                >Read More <img src="./assets/img/icon/left_2.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="card single_blog_item card-round">
+            <img
+              class="card-img-top"
+              src="./assets/img/food_item/food_item_3.png"
+              alt=""
+            />
+            <div class="card-body">
+              <h3 class="card-title">Indian Burger</h3>
+              <p class="card-text text-secondary">
+                Was brean shed moveth day yielding tree yielding day were female
+                and
+              </p>
+              <a
+                href="#"
+                class="mb-4 btn_3 d-inline-block position-relative z-1"
+                >Read More <img src="./assets/img/icon/left_2.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 d-none d-sm-block d-lg-none">
+          <div class="card single_blog_item card-round">
+            <img
+              class="card-img-top"
+              src="./assets/img/food_item/food_item_1.png"
+              alt=""
+            />
+            <div class="card-body">
+              <h3 class="card-title">Indian Burger</h3>
+              <p class="card-text text-secondary">
+                Was brean shed moveth day yielding tree yielding day were female
+                and
+              </p>
+              <a
+                href="#"
+                class="mb-4 btn_3 d-inline-block position-relative z-1"
+                >Read More <img src="./assets/img/icon/left_2.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ###### Popular Dishes ###### -->
+
+    <!-- ###### Our History ###### -->
+    <div class="container-fluid my-5" id="about">
+      <div class="row align-items-center">
+        <div class="col-sm-4 col-lg-5 offset-lg-1">
+          <img class="img-fluid" src="./assets/img/about.png" alt="" />
+        </div>
+        <div class="col-sm-8 col-lg-4">
+          <p class="fs-5 text-secondary">Our History</p>
+          <h1 class="fw-bold mb-4">
+            Where The Food’s As Good As The Root Beer.
+          </h1>
+          <span class="f-ml c-t"
+            >Satisfying people hunger for simple pleasures</span
+          >
+          <p class="mt-3">
+            May over was. Be signs two. Spirit. Brought said dry own firmament
+            lesser best sixth deep abundantly bearing, him, gathering you
+            blessed bearing he our position best ticket in month hole deep
+          </p>
+          <a
+            href="#"
+            class="ms-0 mt-4 btn_more d-inline-block position-relative z-1"
+            >Read More <img src="./assets/img/icon/left_2.svg" alt=""
+          /></a>
+        </div>
+      </div>
+    </div>
+    <!-- ###### Our History ###### -->
+
+    <!-- ###### Expect The Best ###### -->
+    <div class="container-fluid overflow-hidden px-0">
+      <div class="d-flex justify-content-center align-items-center" id="expect">
+        <div
+          class="h-100 w-100 d-flex justify-content-center align-items-center flex-column"
+          style="background-color: rgba(0, 0, 0, 0.685)"
+        >
+          <h1 class="text-white display-3 fw-bold">Expect The Best</h1>
+          <a
+            href="#"
+            class="mt-3 position-relative play_btn btn-info rounded-circle"
+          >
+            <img
+              style="width: 40px"
+              src="./assets/img/icon/play_arrow.svg"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- ###### Expect The Best ###### -->
+
+    <!-- ###### Menu ###### -->
+    <div style="background-color: #f6f5f1">
+      <div class="container" id="menu">
+        <div class="row justify-content-between">
+          <div class="col-md-5 my-5">
+            <p class="fs-5 text-secondary">Popular Menu</p>
+            <h2 class="fw-bold title z-1">Delicious Food Menu</h2>
+          </div>
+          <div
+            class="col-md-6 my-5 d-flex justify-content-center align-items-end"
+          >
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="pills-home-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-home"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-home"
+                  aria-selected="true"
+                >
+                  Special
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-profile-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-profile"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-profile"
+                  aria-selected="false"
+                >
+                  Breakfast
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-contact-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-contact"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-contact"
+                  aria-selected="false"
+                >
+                  Launch
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-dinner-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-dinner"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-dinner"
+                  aria-selected="false"
+                >
+                  Dinner
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-sneaks-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-sneaks"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-sneaks"
+                  aria-selected="false"
+                >
+                  Sneaks
+                </button>
+              </li>
+            </ul>
+          </div>
+          <!-- content -->
+          <div class="col-md-12">
+            <div class="tab-content" id="pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="pills-home"
+                role="tabpanel"
+                aria-labelledby="pills-home-tab"
+              >
+                <div class="row">
+                  <div class="col-sm-6 col-lg-6">
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_1.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Pork Sandwich</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_2.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Roasted Marrow</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_3.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Summer Cooking</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-6">
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_4.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Easter Delight</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_5.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Tiener Schnitze</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_6.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Chicken Roast</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-profile"
+                role="tabpanel"
+                aria-labelledby="pills-profile-tab"
+              >
+                <div class="row d-flex flex-row-reverse">
+                  <div class="col-sm-6 col-lg-6">
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_1.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Pork Sandwich</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_2.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Roasted Marrow</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_3.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Summer Cooking</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-6">
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_4.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Easter Delight</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_5.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Tiener Schnitze</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_6.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Chicken Roast</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-contact"
+                role="tabpanel"
+                aria-labelledby="pills-contact-tab"
+              >
+                <div class="row">
+                  <div class="col-sm-6 col-lg-6">
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_1.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Pork Sandwich</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_2.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Roasted Marrow</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_3.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Summer Cooking</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-6">
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_4.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Easter Delight</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_5.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Tiener Schnitze</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_6.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Chicken Roast</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-dinner"
+                role="tabpanel"
+                aria-labelledby="pills-dinner-tab"
+              >
+                <div class="row d-flex flex-row-reverse">
+                  <div class="col-sm-6 col-lg-6">
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_1.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Pork Sandwich</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_2.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Roasted Marrow</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_3.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Summer Cooking</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-6">
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_4.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Easter Delight</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_5.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Tiener Schnitze</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_6.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Chicken Roast</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-sneaks"
+                role="tabpanel"
+                aria-labelledby="pills-sneaks-tab"
+              >
+                <div class="row">
+                  <div class="col-sm-6 col-lg-6">
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_1.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Pork Sandwich</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_2.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Roasted Marrow</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_3.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Summer Cooking</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-6">
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_4.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Easter Delight</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_5.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Tiener Schnitze</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                    <div class="single_food_item media">
+                      <img
+                        src="./assets/img/food_menu/single_food_6.png"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body align-self-center">
+                        <h3>Chicken Roast</h3>
+                        <p>They're wherein heaven seed hath nothing</p>
+                        <h5>$40.00</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- content -->
+      </div>
+    </div>
+    <!-- ###### Menu ###### -->
+
+    <!-- ###### Chefs ###### -->
+    <div id="chefs" class="container">
+      <div class="row">
+        <div class="col-md-12 mt-5">
+          <p class="fs-5 text-secondary">Team Member</p>
+        </div>
+        <div class="col-md-12">
+          <h2 class="fw-bold title">Our Experience Chefs</h2>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-sm-6 col-lg-4">
+          <div class="card single_blog_item card-round">
+            <img
+              class="card-img-top"
+              src="./assets/img/team/chefs_1.png"
+              alt=""
+            />
+            <div class="card-body text-center">
+              <h3 class="card-title">Adam Billiard</h3>
+              <p class="card-text text-secondary">Chef Master</p>
+              <div class="icons">
+                <i
+                  class="fa-brands fa-facebook-f border rounded-circle text-secondary"
+                ></i>
+                <i
+                  class="fa-brands fa-twitter border rounded-circle text-secondary"
+                ></i>
+                <i
+                  class="fa-brands fa-instagram border rounded-circle text-secondary"
+                ></i>
+                <i
+                  class="fa-brands fa-skype border rounded-circle text-secondary"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="card single_blog_item card-round">
+            <img
+              class="card-img-top"
+              src="./assets/img/team/chefs_2.png"
+              alt=""
+            />
+            <div class="card-body text-center">
+              <h3 class="card-title">Fred Macyard</h3>
+              <p class="card-text text-secondary">Chef Master</p>
+              <div class="icons">
+                <i
+                  class="fa-brands fa-facebook-f border rounded-circle text-secondary"
+                ></i>
+                <i
+                  class="fa-brands fa-twitter border rounded-circle text-secondary"
+                ></i>
+                <i
+                  class="fa-brands fa-instagram border rounded-circle text-secondary"
+                ></i>
+                <i
+                  class="fa-brands fa-skype border rounded-circle text-secondary"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="card single_blog_item card-round">
+            <img
+              class="card-img-top"
+              src="./assets/img/team/chefs_3.png"
+              alt=""
+            />
+            <div class="card-body text-center">
+              <h3 class="card-title">Justin Stuard</h3>
+              <p class="card-text text-secondary">Chef Master</p>
+              <div class="icons">
+                <i
+                  class="fa-brands fa-facebook-f border rounded-circle text-secondary"
+                ></i>
+                <i
+                  class="fa-brands fa-twitter border rounded-circle text-secondary"
+                ></i>
+                <i
+                  class="fa-brands fa-instagram border rounded-circle text-secondary"
+                ></i>
+                <i
+                  class="fa-brands fa-skype border rounded-circle text-secondary"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 d-none d-sm-block d-lg-none">
+          <div class="card single_blog_item card-round">
+            <img
+              class="card-img-top"
+              src="./assets/img/food_item/food_item_1.png"
+              alt=""
+            />
+            <div class="card-body">
+              <h3 class="card-title">Indian Burger</h3>
+              <p class="card-text text-secondary">
+                Was brean shed moveth day yielding tree yielding day were female
+                and
+              </p>
+              <a
+                href="#"
+                class="mb-4 btn_3 d-inline-block position-relative z-1"
+                >Read More <img src="./assets/img/icon/left_2.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ###### Chefs ###### -->
+
+    <!-- ###### Book A Table ###### -->
+     <div id="book" class="book">
+    <div class="container vh-100 py-5">
+      <div class="row ">
+        <div class="col-md-12">
+          <p class="fs-5 text-secondary">Reservation</p>
+        </div>
+        <div id="bookatabletitle" class="col-md-12">
+          <h2 class="fw-bold title text-white z-1 mb-4" >Book A Table</h2>
+        </div>
+        <div class="col-md-7 mt-5" id="bookinp">
+        <form class="row" action="">
+            <input type="text" class="col-md-5 me-3  " placeholder="Name *"></input>
+            <input type="email" class="col-md-5 " placeholder="Email address *"></input>
+            <input type="number" class="col-md-5 me-3 " placeholder="Persons *"></input>
+            <input type="number" class="col-md-5 " placeholder="Phone number *"></input>
+            <input type="date" class="col-md-5 me-3 " placeholder="Date *"></input>
+            <input type="time" class="col-md-5 " placeholder="Time *"></input>
+            <textarea name="" class="h-100  mb-5" style="width: 86%;" placeholder="Your Note *" id=""></textarea>
+            <button class=" col-md-3 btn b-t text-white rounded-0" type="submit" >Book A Table</button>
+          </form>
+        </div>
+      </div>
+    </div>
+     </div>
+    <!-- ###### Book A Table ###### -->
+
+    <!-- ###### Feedback ###### -->
+     <div class="vh-100 d-flex justify-content-center align-items-center" style="background-color: #f6f5f1" id="feedback">
+      <div class="container" >
+      <div class="row ">
+        <div class="col-md-12">
+          <p class="fs-5 text-secondary">Testimonials</p>
+        </div>
+        <div class="col-md-12">
+          <h2 class="fw-bold title z-1 mb-4">Customers Feedback</h2>
+        </div>
+        <div class="col-md-11 mt-5 line position-relative">
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <!-- Dots / Indicators -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+  <!-- Carousel Items -->
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+                              <div class=" media">
+                            <div class=" align-self-center me-5">
+                                <img src="./assets/img/client/client_1.png" alt="">
+                            </div>
+                            <div class=" media-body">
+                                <p class="f-ml text-secondary">Also made from. Give may saying meat there from heaven it lights face had is gathered
+                                    god dea earth light for life may itself shall whales made they're blessed whales
+                                    also made from give
+                                    may saying meat. There from heaven it lights face had amazing place</p>
+                                <h4 class="fw-bold">Mosan Cameron, <span class="f-m fw-normal text-secondary">Executive of fedex</span></h4>
+                            </div>
+                        </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+                              <div class=" media">
+                            <div class=" align-self-center me-5">
+                                <img src="./assets/img/client/client_1.png" alt="">
+                            </div>
+                            <div class=" media-body">
+                                <p class="f-ml text-secondary">Also made from. Give may saying meat there from heaven it lights face had is gathered
+                                    god dea earth light for life may itself shall whales made they're blessed whales
+                                    also made from give
+                                    may saying meat. There from heaven it lights face had amazing place</p>
+                                <h4 class="fw-bold">Mosan Cameron, <span class="f-m fw-normal text-secondary">Executive of fedex</span></h4>
+                            </div>
+                        </div>
+    </div>
+    <div class="carousel-item">
+                              <div class=" media">
+                            <div class=" align-self-center me-5">
+                                <img src="./assets/img/client/client_1.png" alt="">
+                            </div>
+                            <div class=" media-body">
+                                <p class="f-ml text-secondary">Also made from. Give may saying meat there from heaven it lights face had is gathered
+                                    god dea earth light for life may itself shall whales made they're blessed whales
+                                    also made from give
+                                    may saying meat. There from heaven it lights face had amazing place</p>
+                                <h4 class="fw-bold">Mosan Cameron, <span class="f-m fw-normal text-secondary">Executive of fedex</span></h4>
+                            </div>
+                        </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+        </div>
+     </div>
+    <!-- ###### Feedback ###### -->
+
+    <!-- ###### Blog ###### -->
+    <div  class="container">
+      <div class="row">
+        <div class="col-md-12 mt-5">
+          <p class="fs-5 text-secondary">Recent News</p>
+        </div>
+        <div class="col-md-12">
+          <h2 class="fw-bold title">Latest From Blog</h2>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-sm-6 col-lg-4">
+          <div class="card single_blog_item card-round">
+            <img
+              class="card-img-top"
+              src="./assets/img/blog/blog_1.png"
+              alt=""
+            />
+            <div class="card-body">
+              <p class="card-title mb-3">Apr 06, 2019 <span class="ms-4"><span class="c-t">#</span> Food News</span></p>
+              <h4 class="card-text mb-4">
+Adama kind deep gatherin first over fter his great
+              </h4>
+              <a
+                href="#"
+                class="mb-4 btn_3 d-inline-block position-relative z-1"
+                >Read More <img src="./assets/img/icon/left_2.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="card single_blog_item card-round">
+            <img
+              class="card-img-top"
+              src="./assets/img/blog/blog_2.png"
+              alt=""
+            />
+            <div class="card-body">
+              <p class="card-title mb-3">Apr 06, 2019 <span class="ms-4"><span class="c-t">#</span> Food News</span></p>
+              <h4 class="card-text mb-4">
+Adama kind deep gatherin first over fter his great
+              </h4>
+              <a
+                href="#"
+                class="mb-4 btn_3 d-inline-block position-relative z-1"
+                >Read More <img src="./assets/img/icon/left_2.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="card single_blog_item card-round">
+            <img
+              class="card-img-top"
+              src="./assets/img/blog/blog_3.png"
+              alt=""
+            />
+            <div class="card-body">
+              <p class="card-title mb-3">Apr 06, 2019 <span class="ms-4"><span class="c-t">#</span> Food News</span></p>
+              <h4 class="card-text mb-4">
+Adama kind deep gatherin first over fter his great
+              </h4>
+              <a
+                href="#"
+                class="mb-4 btn_3 d-inline-block position-relative z-1"
+                >Read More <img src="./assets/img/icon/left_2.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 d-none d-sm-block d-lg-none">
+          <div class="card single_blog_item card-round">
+            <img
+              class="card-img-top"
+              src="./assets/img/food_item/food_item_1.png"
+              alt=""
+            />
+            <div class="card-body">
+              <h3 class="card-title">Indian Burger</h3>
+              <p class="card-text text-secondary">
+                Was brean shed moveth day yielding tree yielding day were female
+                and
+              </p>
+              <a
+                href="#"
+                class="mb-4 btn_3 d-inline-block position-relative z-1"
+                >Read More <img src="./assets/img/icon/left_2.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ###### Blog ###### -->
+
+    
+    <!-- footer part start-->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-sm-6 col-md-3 col-lg-3">
+                    <div class="single-footer-widget footer_1">
+                        <h4>About Us</h4>
+                        <p>Heaven fruitful doesn't over for these theheaven fruitful doe over days
+                            appear creeping seasons sad behold beari ath of it fly signs bearing
+                            be one blessed after.</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-md-2 col-lg-3">
+                    <div class="single-footer-widget footer_2">
+                        <h4>Important Link</h4>
+                        <div class="contact_info">
+                            <ul>
+                                <li><a href="#">WHMCS-bridge</a></li>
+                                <li><a href="#"> Search Domain</a></li>
+                                <li><a href="#">My Account</a></li>
+                                <li><a href="#">Shopping Cart</a></li>
+                                <li><a href="#"> Our Shop</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-md-3 col-lg-3">
+                    <div class="single-footer-widget footer_2">
+                        <h4>Contact us</h4>
+                        <div class="contact_info">
+                            <p><span> Address :</span>Hath of it fly signs bear be one blessed after </p>
+                            <p><span> Phone :</span> +2 36 265 (8060)</p>
+                            <p><span> Email : </span>info@colorlib.com </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-footer-widget footer_3">
+                        <h4>Newsletter</h4>
+                        <p>Heaven fruitful doesn't over lesser in days. Appear creeping seas</p>
+                        <form action="#">
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder='Email Address'
+                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address'">
+                                    <div class="input-group-append">
+                                        <button class="click-btn" type="button"><i class="fas fa-paper-plane"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright_part_text">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <p class="footer-text m-0">Copyright © All rights reserved | This template is made with 💖 by wahed</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="copyright_social_icon text-end">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                            <a href="#"><i class="fab fa-behance"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer part end-->
+
+
+
+    <!-- ###### bootstrap script CDN ###### -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- ###### bootstrap script CDN ###### -->
+
+    <!-- ###### jquery CDN ###### -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- ###### jquery CDN ###### -->
+
+    <!-- ###### main js ###### -->
+    <script src="./assets/js/main.js"></script>
+    <!-- ###### main js ###### -->
+  </body>
+</html>

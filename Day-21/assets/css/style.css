@@ -1,0 +1,304 @@
+:root {
+  --theam-yellow: #ffcc3f;
+  --theam-green: #017054;
+}
+
+.hero-bg {
+  background-color: var(--theam-green) !important;
+}
+.c-ty {
+  color: var(--theam-yellow) !important;
+}
+.c-tg {
+  color: var(--theam-green) !important;
+}
+.bg-ty {
+  background-color: var(--theam-yellow) !important;
+}
+.bg-tg {
+  background-color: var(--theam-green) !important;
+}
+.border-ty {
+  border-color: var(--theam-yellow) !important;
+}
+.border-tg {
+  border-color: var(--theam-green) !important;
+}
+.box-ss {
+  box-shadow: rgba(14, 30, 37, 0.011) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.126) 0px 2px 16px 0px;
+}
+/* nav-btn */
+.nav-btn {
+  background-color: var(--theam-yellow);
+  color: var(--theam-green);
+  padding: 5px 20px !important;
+  margin: 3px;
+  text-decoration: none;
+}
+.nav-btn-border {
+  background-color: transparent;
+  color: var(--theam-yellow);
+  padding: 5px 20px !important;
+  margin: 3px;
+  border: 1px solid var(--theam-yellow);
+  text-decoration: none;
+}
+.scrolled {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  animation: nav 0.5s ease forwards;
+}
+.nav-go {
+  padding: 6px 8px !important;
+  margin: 2px 0px !important;
+}
+.search::after {
+  content: "";
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: -50%;
+  left: -30%;
+  border: 1.4px solid var(--theam-yellow);
+  border-radius: 50%;
+}
+
+.vr2 {
+  height: 1.3rem !important;
+  width: 2px !important;
+  margin: 11px 5px !important;
+}
+/* nav-btn */
+.under {
+  text-decoration-color: rgba(255, 255, 255, 0.372) !important;
+}
+.hero-img {
+  transform: scale(2.5);
+}
+.iconstext1 i::before {
+  padding: 12px;
+  background-color: var(--theam-yellow);
+  border-radius: 50%;
+}
+.up-main {
+  background-color: rgba(255, 255, 255, 0.466);
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.up-img {
+  border: 2px dashed var(--theam-yellow);
+  padding: 10% 0px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.card-img-top {
+  height: 270px;
+  object-fit: cover;
+  border-top-left-radius: 0.5rem;
+  transition: transform 0.4s ease;
+  border-top-right-radius: 0.5rem;
+}
+.up-main2 {
+  border: 1px solid white;
+}
+.up-img2 {
+  border: 2px dashed var(--theam-yellow);
+  padding: 15% 0px;
+  margin: 5px;
+  border-radius: 20px;
+}
+.up-2nd-bg {
+  background-image: url(https://wahed101.github.io/internship/Day-21/assets/img/hero2.png);
+  background-size: 70%;
+  background-position: 155%;
+  background-repeat: no-repeat;
+}
+.tab li button {
+  border-radius: 20px !important;
+  background-color: rgba(0, 0, 0, 0.249);
+  color: var(--theam-green);
+}
+.nav-pills .nav-link.active {
+  background-color: var(--theam-green) !important;
+  color: var(--theam-yellow) !important;
+}
+.nav-pills .nav-link:hover {
+  color: var(--theam-yellow) !important;
+}
+.wavy-circle {
+  --s: 300px; /* adjust to control the size */
+
+  width: var(--s);
+  aspect-ratio: 1;
+  --g: /calc(var(--s) * 0.163) calc(var(--s) * 0.163) radial-gradient(
+      50% 50%,
+      #000 99%,
+      #0000 101%
+    ) no-repeat;
+  mask: calc(50% + var(--s) * 0.415) calc(50% + var(--s) * 0) var(--g),
+    calc(50% + var(--s) * 0.293) calc(50% + var(--s) * 0.293) var(--g),
+    calc(50% + var(--s) * 0) calc(50% + var(--s) * 0.415) var(--g),
+    calc(50% + var(--s) * -0.293) calc(50% + var(--s) * 0.293) var(--g),
+    calc(50% + var(--s) * -0.415) calc(50% + var(--s) * 0) var(--g),
+    calc(50% + var(--s) * -0.293) calc(50% + var(--s) * -0.293) var(--g),
+    calc(50% + var(--s) * 0) calc(50% + var(--s) * -0.415) var(--g),
+    calc(50% + var(--s) * 0.293) calc(50% + var(--s) * -0.293) var(--g),
+    radial-gradient(calc(var(--s) * 0.41), #000 99%, #0000 101%) subtract,
+    calc(50% + var(--s) * 0.39) calc(50% + var(--s) * 0.161) var(--g),
+    calc(50% + var(--s) * 0.161) calc(50% + var(--s) * 0.39) var(--g),
+    calc(50% + var(--s) * -0.161) calc(50% + var(--s) * 0.39) var(--g),
+    calc(50% + var(--s) * -0.39) calc(50% + var(--s) * 0.161) var(--g),
+    calc(50% + var(--s) * -0.39) calc(50% + var(--s) * -0.161) var(--g),
+    calc(50% + var(--s) * -0.161) calc(50% + var(--s) * -0.39) var(--g),
+    calc(50% + var(--s) * 0.161) calc(50% + var(--s) * -0.39) var(--g),
+    calc(50% + var(--s) * 0.39) calc(50% + var(--s) * -0.161) var(--g);
+  background-image: url("https://wahed101.github.io/internship/Day-21/assets/img/sk3.avif");
+  right: -30%;
+  bottom: -20%;
+  background-position: center top;
+  background-size: cover;
+}
+.wavy-circle2 {
+  --sp: 500px; /* adjust to control the size */
+
+  width: var(--sp);
+  aspect-ratio: 1;
+  --gp: /calc(var(--sp) * 0.163) calc(var(--sp) * 0.163) radial-gradient(
+      50% 50%,
+      #000 99%,
+      #0000 101%
+    ) no-repeat;
+  mask: calc(50% + var(--sp) * 0.415) calc(50% + var(--sp) * 0) var(--gp),
+    calc(50% + var(--sp) * 0.293) calc(50% + var(--sp) * 0.293) var(--gp),
+    calc(50% + var(--sp) * 0) calc(50% + var(--sp) * 0.415) var(--gp),
+    calc(50% + var(--sp) * -0.293) calc(50% + var(--sp) * 0.293) var(--gp),
+    calc(50% + var(--sp) * -0.415) calc(50% + var(--sp) * 0) var(--gp),
+    calc(50% + var(--sp) * -0.293) calc(50% + var(--sp) * -0.293) var(--gp),
+    calc(50% + var(--sp) * 0) calc(50% + var(--sp) * -0.415) var(--gp),
+    calc(50% + var(--sp) * 0.293) calc(50% + var(--sp) * -0.293) var(--gp),
+    radial-gradient(calc(var(--sp) * 0.41), #000 99%, #0000 101%) subtract,
+    calc(50% + var(--sp) * 0.39) calc(50% + var(--sp) * 0.161) var(--gp),
+    calc(50% + var(--sp) * 0.161) calc(50% + var(--sp) * 0.39) var(--gp),
+    calc(50% + var(--sp) * -0.161) calc(50% + var(--sp) * 0.39) var(--gp),
+    calc(50% + var(--sp) * -0.39) calc(50% + var(--sp) * 0.161) var(--gp),
+    calc(50% + var(--sp) * -0.39) calc(50% + var(--sp) * -0.161) var(--gp),
+    calc(50% + var(--sp) * -0.161) calc(50% + var(--sp) * -0.39) var(--gp),
+    calc(50% + var(--sp) * 0.161) calc(50% + var(--sp) * -0.39) var(--gp),
+    calc(50% + var(--sp) * 0.39) calc(50% + var(--sp) * -0.161) var(--gp);
+  background-image: url("https://wahed101.github.io/internship/Day-21/assets/img/sk3.avif");
+  right: -30%;
+  top: -10%;
+  background-position: center top;
+  background-size: cover;
+}
+.bg-nb2 {
+  background-image: url("https://wahed101.github.io/internship/Day-21/assets/img/sk2.jpg") !important;
+}
+.bg-nb3 {
+  background-image: url("https://wahed101.github.io/internship/Day-21/assets/img/sk1.webp") !important;
+}
+.bg-nb4 {
+  background-image: url("https://wahed101.github.io/internship/Day-21/assets/img/card-2-1.jpg") !important;
+}
+.bg-nb5 {
+  background-image: url("https://wahed101.github.io/internship/Day-21/assets/img/card-2-2.jpg") !important;
+}
+/* Make all accordion headers white */
+.accordion-button {
+  background-color: white;
+  color: black;
+  box-shadow: none;
+}
+
+/* Active/open accordion header */
+.accordion-button:not(.collapsed) {
+  background-color: white;
+  color: black;
+  box-shadow: none;
+}
+
+/* Remove blue outline on click/focus */
+.accordion-button:focus,
+.accordion-button:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.card-c-bg-ty {
+  background-color: #ffd974;
+}
+.card-c-bg-ty2 {
+  background-color: #ffd974;
+  background-image: url("https://wahed101.github.io/internship/Day-21/assets/img/card-2-2-bg-removebg-preview.jpg");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+@keyframes nav {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 180px;
+  }
+}
+/* hero */
+@media (max-width: 1200px) {
+  .hero-title{
+    font-size: 9rem !important;
+  }
+  .hero-arrow-btn{
+    font-size: 13px;
+  }
+}
+@media (max-width: 992px) {
+  .hero-title{
+    font-size: 7rem !important;
+  }
+  .hero-img{
+    display: none;
+  }
+    .hero-arrow-btn{
+    padding: 10px 5px !important;
+    font-size: 11px;
+  }
+      .hero-arrow-btn2{
+    padding: 10px 13px !important;
+    font-size: 13px;
+  }
+      .hero-arrow-btn3{
+    padding: 5px 5px !important;
+    font-size: 11px;
+  }
+  .hero-arrow-text{
+    font-size: 15px;
+  }
+}
+@media (max-width: 803px) {
+  .hero-title{
+    font-size: 3.8rem !important;
+  }
+}
+@media (max-width: 426px) {
+  .hero-title{
+    font-size: 2.8rem !important;
+  }
+}
+
+
+/* hero */
+
+
+
+
+

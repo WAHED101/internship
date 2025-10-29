@@ -1,0 +1,20 @@
+:root{
+    --them-color: #7b19d8;
+    --bg-white: #fff5ed;
+}
+.c-t{
+    color: var(--them-color) !important;
+}
+.c-tw{
+    color: var(--bg-white) !important;
+}
+.bg-t{
+    background-color: var(--them-color)  !important;
+}
+.bg-tw{
+    background-color: var(--bg-white)  !important;
+}
+:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}

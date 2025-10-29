@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WIST</title>
+
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v7.0.1/css/all.css"
+    />
+
+    <!-- Scroll-Triggered Animation -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Mouse Follower CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/components.css" />
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/my-logo.png"
+      type="image/x-icon"
+    />
+    <!-- Favicon -->
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-tw" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="./assets/img/my-logo.png" alt="logo" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto gap-4 mb-2 mb-lg-0">
+            <li class="nav-item"
+                data-cursor-text='<i class="fa-duotone fa-solid fa-house c-t fs-3"></i>'
+                data-cursor-stick>
+              <a
+                class="nav-link "
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item dropdown"
+                data-cursor-text='<i class="fa-duotone fa-solid fa-folder-open c-t fs-3"></i>'
+                data-cursor-stick>
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+
+              >
+                Crafted
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./Day-18/index.html"
+                    >Institute Portal</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./Day-19/index.html"
+                    >Foodie web</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./Day-21/index.html"
+                    >Health Care Site</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item"
+                data-cursor-text='<i class="fa-duotone fa-solid fa-address-card c-t fs-3"></i>'
+                data-cursor-stick>
+              <a
+                class="nav-link"
+
+                href="#"
+                >About</a
+              >
+            </li>
+          </ul>
+
+          <a
+            class="navbar-brand"
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+          >
+            <i class="fa-duotone fa-solid fa-magnifying-glass c-t fs-4"></i>
+          </a>
+          <!-- Search Modal -->
+          <div
+            class="modal fade"
+            id="staticBackdrop"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <form class="d-flex align-items-center" role="search">
+                  <input
+                    class="form-control focus-none m-3"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button
+                    type="button"
+                    class="btn-close m-3"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- Search Modal -->
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- announcement -->
+    <div
+      class="container-fluid bg-t d-flex justify-content-center align-items-center   text-dark gap-2  p-2"
+      
+    >
+      <h3 class="fw-bold mb-0">EXPLORE WHAT I’VE BUILT</h3>
+      <p class="mb-0">Until Nov 27.</p>
+      <a
+        class="btn btn-dark py-3 fw-bold px-4"
+        href="./Day-18/index.html"
+        data-cursor-text='<i class="fa-duotone fa-solid fa-arrow-right c-t fs-3"></i>'
+        >Start now</a
+      >
+    </div>
+    <!-- announcement -->
+
+    <!-- Hero -->
+    <div class="container-fluid mb-5">
+      <div class="m-4">
+        <div class="row  d-flex justify-content-center gap-4">
+          <div class="col-md-8  bg-white rounded-4  hero-left p-0 "
+          data-aos="fade-right"
+          >
+            <div class="hero-text rounded-4 text-white p-4">
+            <h1 class="mb-0 display-3 fw-bold">VIEW WHAT I’VE DEVELOPED</h1>
+            <p class="mb-0 fw-bold fs-5">Until Nov 27.</p>
+            <p class="mb-0 fw-bold fs-3 lh-1 mt-3">
+              Search and create the broadest range of creative assets
+            </p>
+            </div>
+
+          </div>
+          <div class="col-md-3 bg-white border d-flex flex-column justify-content-between rounded-4 p-0 p-4"
+          data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="100"
+     data-aos-offset="0">
+            <p class="mb-0">WHAT POWERS MY WORK</p>
+            <p class="my-0  fw-medium  d-flex align-items-center lh-1 ">
+              <i class="fa-brands fa-html5 fs-4"></i> <span>Core structure is HTML</span>
+            </p>
+            <p class="my-0  fw-medium  d-flex align-items-center lh-1 ">
+              <i class="fa-brands fa-css3-alt fs-4"></i> <span>Styled with CSS</span>
+            </p>
+            <p class="my-0  fw-medium  d-flex align-items-center lh-1 ">
+              <i class="fa-brands fa-bootstrap fs-4"></i> <span>Built on Bootstrap framework</span>
+            </p>
+            <p class="my-0  fw-medium  d-flex align-items-center lh-1 ">
+              <i class="fa-brands fa-js fs-4"></i> <span>JS drives the functionality</span>
+            </p>
+            <button class="btn bg-t fw-bold w-100 " 
+            data-cursor-text='<i class="fa-duotone fa-solid fa-arrow-right c-t fs-3"></i>'
+            >Get more info</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Hero -->
+
+    <!-- card -->
+     <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-3">
+
+          <div class="card"  data-aos="zoom-out-down">
+            <img src="./assets/img/web-1.png" class="card-img-top img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+     </div>
+    <!-- card -->
+
+
+    <!-- Page Buttons -->
+    <!-- <div class="container d-flex justify-content-center flex-column gap-3 mt-5">
+      <a class="btn btn-primary" href="./Day-7/index.html">Campus Site</a>
+      <a class="btn btn-primary" href="./Day-18/index.html">Institute Portal</a>
+      <a class="btn btn-primary" href="./Day-19/index.html">Foodie Web</a>
+      <a class="btn btn-primary" href="./Day-21/index.html">Health Care Site</a>
+      <a class="btn btn-primary" href="./Day-11/index.html">Smart Login Page</a>
+      <a class="btn btn-primary" href="./to-do-list/index.html"
+        >Live Task List</a
+      >
+    </div> -->
+    <!-- Page Buttons -->
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- jQuery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- GSAP + MouseFollower -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

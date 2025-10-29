@@ -1,0 +1,137 @@
+/* Top bar */
+@media (min-width: 767px) and (max-width: 769px) {
+  .mt-4 {
+    margin-top: 1.2rem !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .mt-4 {
+    margin-top: 2.4rem !important;
+  }
+}
+/* Top bar END*/
+
+/* tablet & mobile */
+@media (max-width: 768px) {
+  #main-card {
+    width: 90%;
+  }
+  #card {
+    display: flex;
+    flex-direction: column;
+  }
+  #card .card-body {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+  #dev-right {
+    width: 100% !important;
+    border-right: none !important;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+  }
+  #dev-left {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100% !important;
+  }
+  #herotext h1 {
+    font-size: calc(1.625rem + 2vw);
+  }
+  #left-text {
+    font-size: 13px;
+    margin-left: 0px !important;
+  }
+  #dev-left i {
+    font-size: 20px !important;
+  }
+  #left-text span {
+    font-size: 9px !important;
+  }
+  #teachers {
+    margin-top: 30% !important;
+  }
+  #teachers-pro {
+    margin-top: 60px;
+  }
+  #top-bar p {
+    gap: 0px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .over-up {
+    left: 50% !important;
+  }
+  #pop {
+    margin-right: 0px !important;
+    margin-bottom: 50px !important;
+  }
+  #pop-right {
+    margin-left: 0px !important;
+  }
+  #title-underline::after {
+    content: "";
+    border-bottom: 0px !important;
+  }
+  #title-underline::before {
+    content: "";
+    border-bottom: 0px !important;
+  }
+  .bg-custom-img h1 {
+    font-size: 17px !important;
+  }
+  .bg-custom-img span {
+    font-size: 10px !important;
+  }
+  #news {
+    width: 100vh;
+  }
+  .rate::after {
+    top: -29% !important;
+  }
+  .rate::before {
+    right: -3% !important;
+  }
+  #no-card {
+    display: none !important;
+  }
+}
+/* tablet & mobile END*/
+/* teacher */
+@media (min-width: 320px) and (max-width: 444px) {
+  #teachers-h4 {
+    margin-top: 23%;
+    margin-bottom: 0px !important;
+  }
+}
+/* teacher END*/
+/* angled background (desktop only) */
+@media (min-width: 992px) {
+  .angled {
+    position: relative;
+    background-color: #0b132b;
+    color: #fff;
+    z-index: 1;
+  }
+  .angled::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -60px;
+    width: 120px;
+    height: 100%;
+    background-color: #0b132b;
+    transform: skewX(-12deg);
+    z-index: -1;
+  }
+}
+
+/* fallback for mobile/tablet */
+@media (max-width: 991px) {
+  .angled {
+    background-color: #0b132b;
+    color: #fff;
+  }
+}

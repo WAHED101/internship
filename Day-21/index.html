@@ -1,0 +1,2101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MEDSY</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/img/logo.png"
+      type="image/x-icon"
+    />
+    <!-- bootstrap cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!-- bootstrap cdn -->
+
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v7.0.1/css/all.css"
+    />
+    <!-- font awesome cdn -->
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- css link -->
+  </head>
+  <body>
+    <!-- ###### NAV ###### -->
+    <nav class="navbar bg-tg navbar-expand-lg px-5 py-3" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="#"
+          ><img src="./assets/img/logo-64 - Copy.png" alt="" /><span
+            class="text-white fw-medium ms-3 fs-3"
+            >MEDSY</span
+          ></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header bg-primary">
+            <img src="./assets/img/logo-64 - Copy.png" alt="" />
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body bg-transparent">
+            <ul
+              class="navbar-nav d-flex align-items-center justify-content-center flex-grow-1 gap-4 fw-medium fs-5"
+            >
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="#hero"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#products">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#blog">Blog</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-ty fw-medium c-ty" href="#">Log In</a>
+              </li>
+              <div class="vr vr2 c-ty opacity-100"></div>
+              <li class="nav-item">
+                <a
+                  class="nav-link rounded-circle search-box position-relative c-ty text-white"
+                  href="#"
+                  ><i
+                    class="fa-thin fa-magnifying-glass c-ty position-relative fw-normal search"
+                  ></i
+                ></a>
+              </li>
+              <div class="vr vr2 c-ty opacity-100"></div>
+              <li class="nav-item">
+                <a class="nav-link nav-btn rounded-pill me-0" href="#"
+                  >Sign Up</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link rounded-pill c-tg bg-ty rounded-circle nav-go"
+                  ><i class="fa-solid fa-arrow-up-right"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Nav -->
+    <!-- hero -->
+    <div
+      class="container-fluid p-0 hero-bg text-center overflow-hidden"
+      id="hero"
+    >
+      <div class="row">
+        <div class="col-md-12">
+          <h1
+            class="fw-bold text-white mb-3 hero-title"
+            style="font-size: 11.1rem; transform: scale(1.1)"
+          >
+            PHAR<span class="c-ty">―</span>MACY
+          </h1>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row d-flex justify-content-between mb-5">
+          <div
+            class="col-md-4 d-flex flex-column justify-content-around gap-5 text-start"
+          >
+            <a href="#" class="text-white under">hello@sabro.com</a>
+            <p class="text-white lh-1">
+              Online medicine delivery is the process of ordering medications
+              through a website or app and having them delivered to your
+              doorstep.
+            </p>
+            <div class="icon-main">
+              <div class="iconstext1 d-flex flex-row align-items-center mb-5">
+                <i class="fa-thin fa-hand-holding-box fs-2 text-white"></i>
+                <div class="text ms-4 text-white fw-medium">
+                  <p class="mb-0">Delivery to your</p>
+                  <p class="mb-0">doorstep</p>
+                </div>
+              </div>
+              <div class="iconstext1 d-flex flex-row align-items-center">
+                <i class="fa-thin fa-pills fs-2 text-white"></i>
+                <div class="text ms-4 text-white fw-medium">
+                  <p class="mb-0">100% Genuine</p>
+                  <p class="mb-0">Medicees</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="./assets/img/hero2.png"
+              class="img-fluid hero-img"
+              alt=""
+            />
+          </div>
+          <div
+            class="col-md-3 d-flex flex-column gap-5 justify-content-around text-end"
+          >
+            <a href="#" class="text-white under">+8801610197043</a>
+            <p class="text-white lh-1">
+              Collection that showcase your unique style
+            </p>
+            <div class="upload-main z-3">
+              <div class="up-main text-center">
+                <!-- Hidden file input -->
+                <input
+                  type="file"
+                  id="fileInput"
+                  class="d-none"
+                  accept="image/*,application/pdf"
+                />
+
+                <!-- Keep your existing style, just wrap in label -->
+                <label for="fileInput" style="display: block; cursor: pointer">
+                  <div class="up-img">
+                    <i class="fa-thin fa-image-circle-plus text-white fs-1"></i>
+                    <p class="text-white fw-medium mb-0">Upload prescription</p>
+                  </div>
+                </label>
+
+                <div class="d-flex py-2 justify-content-center">
+                  <a class="nav-btn rounded-pill me-0 hero-arrow-btn " href="#"
+                    >Order via prescription</a
+                  >
+                  <a
+                    class="nav-link rounded-pill c-tg bg-ty rounded-circle nav-go"
+                  >
+                    <i class="fa-solid fa-arrow-up-right "></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- hero -->
+    <!-- brands -->
+    <div class="container-fluid bg-tg py-3">
+      <div class="row">
+        <div class="col-md-12 c-ty d-flex justify-content-center">
+          <p class="fs-4">Featured Brand</p>
+        </div>
+        <div
+          class="col-md-12 fs-2 fw-medium text-white d-flex justify-content-around flex-wrap"
+        >
+          <p>VISA</p>
+          <p>MOKA CARE</p>
+          <p>ALLOY</p>
+          <p>SYNTHESIS</p>
+          <p>PLERSER</p>
+          <p>SANALI</p>
+        </div>
+      </div>
+    </div>
+    <!-- brands -->
+    <!-- best deals -->
+    <div class="container">
+      <div class="row pt-5 d-flex justify-content-between">
+        <div class="col-md-5">
+          <h1 class="fw-bolder c-tg">Todays best deals for you</h1>
+        </div>
+        <div class="col-md-3 text-end ">
+          <div class="d-flex justify-content-end">
+            <a class="nav-link nav-btn rounded-pill me-0 hero-arrow-btn2" href="#"
+              >See all prducts</a
+            >
+            <a class="nav-link rounded-pill c-tg bg-ty rounded-circle nav-go"
+              ><i class="fa-solid fa-arrow-up-right"></i
+            ></a>
+          </div>
+          <div class="text-best text-start fw-medium mt-2 d-flex justify-content-end ">
+            <p>Collection that showcase <br> your unique style</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row py-5">
+        <div class="col-md-3 d-flex justify-content-center">
+          <div class="card rounded-5" style="width: 18rem">
+            <img
+              src="./assets/img/PLATENZA-SYRUP-100ML.webp"
+              class="card-img-top img-fluid rounded-5"
+              alt="..."
+            />
+            <div class="card-body">
+              <div
+                class="text-secondary card-title d-flex justify-content-between align-items-center"
+              >
+                <p class="text-start">Card title</p>
+                <p class="text-end">
+                  (4.5)
+                  <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                </p>
+              </div>
+              <p class="card-text fs-4 fw-medium c-tg">
+                Dietary supplement Health products
+              </p>
+              <div
+                class="bottom-card d-flex justify-content-between align-items-center"
+              >
+                <a
+                  href="#"
+                  class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                  >+Add to cart</a
+                >
+                <h4 class="c-tg hero-arrow-text">$140.00</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center">
+          <div class="card rounded-5" style="width: 18rem">
+            <img
+              src="./assets/img/pilex-60.webp"
+              class="card-img-top img-fluid rounded-5"
+              alt="..."
+            />
+            <div class="card-body">
+              <div
+                class="text-secondary card-title d-flex justify-content-between align-items-center"
+              >
+                <p class="text-start">Card title</p>
+                <p class="text-end">
+                  (4.5)
+                  <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                </p>
+              </div>
+              <p class="card-text fs-4 fw-medium c-tg">
+                Dietary supplement Health products
+              </p>
+              <div
+                class="bottom-card d-flex justify-content-between align-items-center"
+              >
+                <a
+                  href="#"
+                  class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                  >+Add to cart</a
+                >
+                <h4 class="c-tg hero-arrow-btn3">$140.00</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center">
+          <div class="card rounded-5" style="width: 18rem">
+            <img
+              src="./assets/img/Brahmi-1.webp"
+              class="card-img-top img-fluid rounded-5"
+              alt="..."
+            />
+            <div class="card-body">
+              <div
+                class="text-secondary card-title d-flex justify-content-between align-items-center"
+              >
+                <p class="text-start">Card title</p>
+                <p class="text-end">
+                  (4.5)
+                  <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                </p>
+              </div>
+              <p class="card-text fs-4 fw-medium c-tg">
+                Dietary supplement Health products
+              </p>
+              <div
+                class="bottom-card d-flex justify-content-between align-items-center"
+              >
+                <a
+                  href="#"
+                  class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                  >+Add to cart</a
+                >
+                <h4 class="c-tg hero-arrow-text">$140.00</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center">
+          <div class="card rounded-5" style="width: 18rem">
+            <img
+              src="./assets/img/tentex-forte.webp"
+              class="card-img-top img-fluid rounded-5"
+              alt="..."
+            />
+            <div class="card-body">
+              <div
+                class="text-secondary card-title d-flex justify-content-between align-items-center"
+              >
+                <p class="text-start">Card title</p>
+                <p class="text-end">
+                  (4.5)
+                  <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                </p>
+              </div>
+              <p class="card-text fs-4 fw-medium c-tg">
+                Dietary supplement Health products
+              </p>
+              <div
+                class="bottom-card d-flex justify-content-between align-items-center"
+              >
+                <a
+                  href="#"
+                  class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                  >+Add to cart</a
+                >
+                <h4 class="c-tg hero-arrow-btn3">$140.00</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="upload-main z-3">
+            <div class="up-main2 bg-tg rounded-4 text-center">
+              <input
+                type="file"
+                id="fileInput"
+                class="d-none"
+                accept="image/*,application/pdf"
+              />
+              <label for="fileInput" style="display: block; cursor: pointer">
+                <div class="up-img2 m-3">
+                  <i class="fa-thin fa-image-circle-plus c-ty fs-1"></i>
+                  <p class="c-ty fw-medium mb-0">Upload prescription</p>
+                </div>
+              </label>
+              <div class="d-flex py-2 mx-1 align-items-center">
+                <a class="nav-btn rounded-pill me-0 hero-arrow-btn" href="#"
+                  >Order via prescription</a
+                >
+                <a
+                  class="nav-link rounded-pill c-tg bg-ty rounded-circle nav-go"
+                >
+                  <i class="fa-solid fa-arrow-up-right"></i>
+                </a>
+                <a href="#" class="text-white ms-4 under">How to order?</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-7 bg-tg up-2nd-bg rounded-4 d-flex flex-column justify-content-around ps-4"
+        >
+          <div class="row d-flex flex-column">
+            <div class="col-md-3 text-white">
+              <h4>Don't have prescription?</h4>
+            </div>
+
+            <div class="col-md-5 text-white">
+              <p class="opacity-75">
+                Upload only jpg,png,pdf files size limit is 15 MB
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-5 text-white">
+              <div class="d-flex align-items-center">
+                <a class="nav-btn rounded-pill me-0 hero-arrow-btn2" href="#"
+                  >Order via prescription</a
+                >
+                <a
+                  class="nav-link rounded-pill c-tg bg-ty rounded-circle nav-go"
+                >
+                  <i class="fa-solid fa-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- best deals -->
+    <!-- product -->
+    <div class="container">
+      <div class="row pt-5 d-flex justify-content-between">
+        <div class="col-md-5">
+          <h1 class="fw-bolder c-tg">Trending product for you?</h1>
+        </div>
+        <div class="col-md-3 text-end ">
+          <div class="d-flex justify-content-end">
+            <a class="nav-link nav-btn rounded-pill me-0 hero-arrow-btn2" href="#"
+              >See all prducts</a
+            >
+            <a class="nav-link rounded-pill c-tg bg-ty rounded-circle nav-go"
+              ><i class="fa-solid fa-arrow-up-right"></i
+            ></a>
+          </div>
+          <div class="text-best text-start fw-medium mt-2 d-flex justify-content-end ">
+            <p>Collection that showcase <br> your unique style</p>
+          </div>
+        </div>
+      </div>
+      <!-- tab -->
+      <ul
+        class="nav tab nav-pills mb-3 justify-content-center mt-4 gap-4 rounded-pill"
+        id="pills-tab"
+        role="tablist"
+      >
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="pills-home-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-home"
+            type="button"
+            role="tab"
+            aria-controls="pills-home"
+            aria-selected="true"
+          >
+            Cardiology
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-profile-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-profile"
+            type="button"
+            role="tab"
+            aria-controls="pills-profile"
+            aria-selected="false"
+          >
+            Neurology
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-contact-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-contact"
+            type="button"
+            role="tab"
+            aria-controls="pills-contact"
+            aria-selected="false"
+          >
+            Pediatrics
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-contact-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-contact"
+            type="button"
+            role="tab"
+            aria-controls="pills-contact"
+            aria-selected="false"
+          >
+            Gestroenterology
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-contact-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-contact"
+            type="button"
+            role="tab"
+            aria-controls="pills-contact"
+            aria-selected="false"
+          >
+            Nephorology
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-contact-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-contact"
+            type="button"
+            role="tab"
+            aria-controls="pills-contact"
+            aria-selected="false"
+          >
+            Gynecology
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-contact-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-contact"
+            type="button"
+            role="tab"
+            aria-controls="pills-contact"
+            aria-selected="false"
+          >
+            Orthopedics
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-contact-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-contact"
+            type="button"
+            role="tab"
+            aria-controls="pills-contact"
+            aria-selected="false"
+          >
+            Urology
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div class="container-fluid">
+      <div class="tab-content" id="pills-tabContent">
+        <div
+          class="tab-pane fade show active"
+          id="pills-home"
+          role="tabpanel"
+          aria-labelledby="pills-home-tab"
+          tabindex="0"
+        >
+          <div class="row mt-5">
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card rounded-5" style="width: 18rem">
+                <img
+                  src="./assets/img/PLATENZA-SYRUP-100ML.webp"
+                  class="card-img-top img-fluid rounded-5"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div
+                    class="text-secondary card-title d-flex justify-content-between align-items-center"
+                  >
+                    <p class="text-start">Card title</p>
+                    <p class="text-end">
+                      (4.5)
+                      <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                    </p>
+                  </div>
+                  <p class="card-text fs-4 fw-medium c-tg">
+                    Dietary supplement Health products
+                  </p>
+                  <div
+                    class="bottom-card d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                      >+Add to cart</a
+                    >
+                    <h4 class="c-tg hero-arrow-text">$140.00</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card rounded-5" style="width: 18rem">
+                <img
+                  src="./assets/img/pilex-60.webp"
+                  class="card-img-top img-fluid rounded-5"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div
+                    class="text-secondary card-title d-flex justify-content-between align-items-center"
+                  >
+                    <p class="text-start">Card title</p>
+                    <p class="text-end">
+                      (4.5)
+                      <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                    </p>
+                  </div>
+                  <p class="card-text fs-4 fw-medium c-tg">
+                    Dietary supplement Health products
+                  </p>
+                  <div
+                    class="bottom-card d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                      >+Add to cart</a
+                    >
+                    <h4 class="c-tg hero-arrow-text">$140.00</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card rounded-5" style="width: 18rem">
+                <img
+                  src="./assets/img/Brahmi-1.webp"
+                  class="card-img-top img-fluid rounded-5"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div
+                    class="text-secondary card-title d-flex justify-content-between align-items-center"
+                  >
+                    <p class="text-start">Card title</p>
+                    <p class="text-end">
+                      (4.5)
+                      <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                    </p>
+                  </div>
+                  <p class="card-text fs-4 fw-medium c-tg">
+                    Dietary supplement Health products
+                  </p>
+                  <div
+                    class="bottom-card d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                      >+Add to cart</a
+                    >
+                    <h4 class="c-tg hero-arrow-text">$140.00</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card rounded-5" style="width: 18rem">
+                <img
+                  src="./assets/img/tentex-forte.webp"
+                  class="card-img-top img-fluid rounded-5"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div
+                    class="text-secondary card-title d-flex justify-content-between align-items-center"
+                  >
+                    <p class="text-start">Card title</p>
+                    <p class="text-end">
+                      (4.5)
+                      <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                    </p>
+                  </div>
+                  <p class="card-text fs-4 fw-medium c-tg">
+                    Dietary supplement Health products
+                  </p>
+                  <div
+                    class="bottom-card d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                      >+Add to cart</a
+                    >
+                    <h4 class="c-tg hero-arrow-text">$140.00</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4 mb-4">
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card rounded-5" style="width: 18rem">
+                <img
+                  src="./assets/img/pro1.webp"
+                  class="card-img-top img-fluid rounded-5"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div
+                    class="text-secondary card-title d-flex justify-content-between align-items-center"
+                  >
+                    <p class="text-start">Card title</p>
+                    <p class="text-end">
+                      (4.5)
+                      <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                    </p>
+                  </div>
+                  <p class="card-text fs-4 fw-medium c-tg">
+                    Dietary supplement Health products
+                  </p>
+                  <div
+                    class="bottom-card d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                      >+Add to cart</a
+                    >
+                    <h4 class="c-tg hero-arrow-text">$140.00</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card rounded-5" style="width: 18rem">
+                <img
+                  src="./assets/img/pro2.webp"
+                  class="card-img-top img-fluid rounded-5"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div
+                    class="text-secondary card-title d-flex justify-content-between align-items-center"
+                  >
+                    <p class="text-start">Card title</p>
+                    <p class="text-end">
+                      (4.5)
+                      <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                    </p>
+                  </div>
+                  <p class="card-text fs-4 fw-medium c-tg">
+                    Dietary supplement Health products
+                  </p>
+                  <div
+                    class="bottom-card d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                      >+Add to cart</a
+                    >
+                    <h4 class="c-tg hero-arrow-text">$140.00</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card rounded-5" style="width: 18rem">
+                <img
+                  src="./assets/img/pro3.webp"
+                  class="card-img-top img-fluid rounded-5"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div
+                    class="text-secondary card-title d-flex justify-content-between align-items-center"
+                  >
+                    <p class="text-start">Card title</p>
+                    <p class="text-end">
+                      (4.5)
+                      <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                    </p>
+                  </div>
+                  <p class="card-text fs-4 fw-medium c-tg">
+                    Dietary supplement Health products
+                  </p>
+                  <div
+                    class="bottom-card d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                      >+Add to cart</a
+                    >
+                    <h4 class="c-tg hero-arrow-text">$140.00</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card rounded-5" style="width: 18rem">
+                <img
+                  src="./assets/img/pro4.webp"
+                  class="card-img-top img-fluid rounded-5"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div
+                    class="text-secondary card-title d-flex justify-content-between align-items-center"
+                  >
+                    <p class="text-start">Card title</p>
+                    <p class="text-end">
+                      (4.5)
+                      <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                    </p>
+                  </div>
+                  <p class="card-text fs-4 fw-medium c-tg">
+                    Dietary supplement Health products
+                  </p>
+                  <div
+                    class="bottom-card d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                      >+Add to cart</a
+                    >
+                    <h4 class="c-tg hero-arrow-text">$140.00</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-profile"
+          role="tabpanel"
+          aria-labelledby="pills-profile-tab"
+          tabindex="0"
+        >
+          <div class="row mt-5">
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card rounded-5" style="width: 18rem">
+                <img
+                  src="./assets/img/pro1.webp"
+                  class="card-img-top img-fluid rounded-5"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div
+                    class="text-secondary card-title d-flex justify-content-between align-items-center"
+                  >
+                    <p class="text-start">Card title</p>
+                    <p class="text-end">
+                      (4.5)
+                      <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                    </p>
+                  </div>
+                  <p class="card-text fs-4 fw-medium c-tg">
+                    Dietary supplement Health products
+                  </p>
+                  <div
+                    class="bottom-card d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                      >+Add to cart</a
+                    >
+                    <h4 class="c-tg hero-arrow-text">$140.00</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card rounded-5" style="width: 18rem">
+                <img
+                  src="./assets/img/pro2.webp"
+                  class="card-img-top img-fluid rounded-5"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div
+                    class="text-secondary card-title d-flex justify-content-between align-items-center"
+                  >
+                    <p class="text-start">Card title</p>
+                    <p class="text-end">
+                      (4.5)
+                      <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                    </p>
+                  </div>
+                  <p class="card-text fs-4 fw-medium c-tg">
+                    Dietary supplement Health products
+                  </p>
+                  <div
+                    class="bottom-card d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                      >+Add to cart</a
+                    >
+                    <h4 class="c-tg hero-arrow-text">$140.00</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card rounded-5" style="width: 18rem">
+                <img
+                  src="./assets/img/pro3.webp"
+                  class="card-img-top img-fluid rounded-5"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div
+                    class="text-secondary card-title d-flex justify-content-between align-items-center"
+                  >
+                    <p class="text-start">Card title</p>
+                    <p class="text-end">
+                      (4.5)
+                      <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                    </p>
+                  </div>
+                  <p class="card-text fs-4 fw-medium c-tg">
+                    Dietary supplement Health products
+                  </p>
+                  <div
+                    class="bottom-card d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                      >+Add to cart</a
+                    >
+                    <h4 class="c-tg hero-arrow-text">$140.00</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card rounded-5" style="width: 18rem">
+                <img
+                  src="./assets/img/pro4.webp"
+                  class="card-img-top img-fluid rounded-5"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div
+                    class="text-secondary card-title d-flex justify-content-between align-items-center"
+                  >
+                    <p class="text-start">Card title</p>
+                    <p class="text-end">
+                      (4.5)
+                      <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                    </p>
+                  </div>
+                  <p class="card-text fs-4 fw-medium c-tg">
+                    Dietary supplement Health products
+                  </p>
+                  <div
+                    class="bottom-card d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                      >+Add to cart</a
+                    >
+                    <h4 class="c-tg hero-arrow-text">$140.00</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4 mb-4">
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card rounded-5" style="width: 18rem">
+                <img
+                  src="./assets/img/PLATENZA-SYRUP-100ML.webp"
+                  class="card-img-top img-fluid rounded-5"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div
+                    class="text-secondary card-title d-flex justify-content-between align-items-center"
+                  >
+                    <p class="text-start">Card title</p>
+                    <p class="text-end">
+                      (4.5)
+                      <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                    </p>
+                  </div>
+                  <p class="card-text fs-4 fw-medium c-tg">
+                    Dietary supplement Health products
+                  </p>
+                  <div
+                    class="bottom-card d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                      >+Add to cart</a
+                    >
+                    <h4 class="c-tg hero-arrow-text">$140.00</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card rounded-5" style="width: 18rem">
+                <img
+                  src="./assets/img/pilex-60.webp"
+                  class="card-img-top img-fluid rounded-5"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div
+                    class="text-secondary card-title d-flex justify-content-between align-items-center"
+                  >
+                    <p class="text-start">Card title</p>
+                    <p class="text-end">
+                      (4.5)
+                      <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                    </p>
+                  </div>
+                  <p class="card-text fs-4 fw-medium c-tg">
+                    Dietary supplement Health products
+                  </p>
+                  <div
+                    class="bottom-card d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                      >+Add to cart</a
+                    >
+                    <h4 class="c-tg hero-arrow-text">$140.00</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card rounded-5" style="width: 18rem">
+                <img
+                  src="./assets/img/Brahmi-1.webp"
+                  class="card-img-top img-fluid rounded-5"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div
+                    class="text-secondary card-title d-flex justify-content-between align-items-center"
+                  >
+                    <p class="text-start">Card title</p>
+                    <p class="text-end">
+                      (4.5)
+                      <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                    </p>
+                  </div>
+                  <p class="card-text fs-4 fw-medium c-tg">
+                    Dietary supplement Health products
+                  </p>
+                  <div
+                    class="bottom-card d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                      >+Add to cart</a
+                    >
+                    <h4 class="c-tg hero-arrow-text">$140.00</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card rounded-5" style="width: 18rem">
+                <img
+                  src="./assets/img/tentex-forte.webp"
+                  class="card-img-top img-fluid rounded-5"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div
+                    class="text-secondary card-title d-flex justify-content-between align-items-center"
+                  >
+                    <p class="text-start">Card title</p>
+                    <p class="text-end">
+                      (4.5)
+                      <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                    </p>
+                  </div>
+                  <p class="card-text fs-4 fw-medium c-tg">
+                    Dietary supplement Health products
+                  </p>
+                  <div
+                    class="bottom-card d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                      >+Add to cart</a
+                    >
+                    <h4 class="c-tg hero-arrow-text">$140.00</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-contact"
+          role="tabpanel"
+          aria-labelledby="pills-contact-tab"
+          tabindex="0"
+        >
+          <div class="row mt-5">
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card rounded-5" style="width: 18rem">
+                <img
+                  src="./assets/img/PLATENZA-SYRUP-100ML.webp"
+                  class="card-img-top img-fluid rounded-5"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div
+                    class="text-secondary card-title d-flex justify-content-between align-items-center"
+                  >
+                    <p class="text-start">Card title</p>
+                    <p class="text-end">
+                      (4.5)
+                      <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                    </p>
+                  </div>
+                  <p class="card-text fs-4 fw-medium c-tg">
+                    Dietary supplement Health products
+                  </p>
+                  <div
+                    class="bottom-card d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                      >+Add to cart</a
+                    >
+                    <h4 class="c-tg hero-arrow-text">$140.00</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card rounded-5" style="width: 18rem">
+                <img
+                  src="./assets/img/pilex-60.webp"
+                  class="card-img-top img-fluid rounded-5"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div
+                    class="text-secondary card-title d-flex justify-content-between align-items-center"
+                  >
+                    <p class="text-start">Card title</p>
+                    <p class="text-end">
+                      (4.5)
+                      <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                    </p>
+                  </div>
+                  <p class="card-text fs-4 fw-medium c-tg">
+                    Dietary supplement Health products
+                  </p>
+                  <div
+                    class="bottom-card d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                      >+Add to cart</a
+                    >
+                    <h4 class="c-tg hero-arrow-text">$140.00</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card rounded-5" style="width: 18rem">
+                <img
+                  src="./assets/img/Brahmi-1.webp"
+                  class="card-img-top img-fluid rounded-5"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div
+                    class="text-secondary card-title d-flex justify-content-between align-items-center"
+                  >
+                    <p class="text-start">Card title</p>
+                    <p class="text-end">
+                      (4.5)
+                      <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                    </p>
+                  </div>
+                  <p class="card-text fs-4 fw-medium c-tg">
+                    Dietary supplement Health products
+                  </p>
+                  <div
+                    class="bottom-card d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                      >+Add to cart</a
+                    >
+                    <h4 class="c-tg hero-arrow-text">$140.00</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card rounded-5" style="width: 18rem">
+                <img
+                  src="./assets/img/tentex-forte.webp"
+                  class="card-img-top img-fluid rounded-5"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div
+                    class="text-secondary card-title d-flex justify-content-between align-items-center"
+                  >
+                    <p class="text-start">Card title</p>
+                    <p class="text-end">
+                      (4.5)
+                      <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                    </p>
+                  </div>
+                  <p class="card-text fs-4 fw-medium c-tg">
+                    Dietary supplement Health products
+                  </p>
+                  <div
+                    class="bottom-card d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                      >+Add to cart</a
+                    >
+                    <h4 class="c-tg hero-arrow-text">$140.00</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4 mb-4">
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card rounded-5" style="width: 18rem">
+                <img
+                  src="./assets/img/pro1.webp"
+                  class="card-img-top img-fluid rounded-5"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div
+                    class="text-secondary card-title d-flex justify-content-between align-items-center"
+                  >
+                    <p class="text-start">Card title</p>
+                    <p class="text-end">
+                      (4.5)
+                      <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                    </p>
+                  </div>
+                  <p class="card-text fs-4 fw-medium c-tg">
+                    Dietary supplement Health products
+                  </p>
+                  <div
+                    class="bottom-card d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                      >+Add to cart</a
+                    >
+                    <h4 class="c-tg hero-arrow-text">$140.00</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card rounded-5" style="width: 18rem">
+                <img
+                  src="./assets/img/pro2.webp"
+                  class="card-img-top img-fluid rounded-5"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div
+                    class="text-secondary card-title d-flex justify-content-between align-items-center"
+                  >
+                    <p class="text-start">Card title</p>
+                    <p class="text-end">
+                      (4.5)
+                      <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                    </p>
+                  </div>
+                  <p class="card-text fs-4 fw-medium c-tg">
+                    Dietary supplement Health products
+                  </p>
+                  <div
+                    class="bottom-card d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                      >+Add to cart</a
+                    >
+                    <h4 class="c-tg hero-arrow-text">$140.00</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card rounded-5" style="width: 18rem">
+                <img
+                  src="./assets/img/pro3.webp"
+                  class="card-img-top img-fluid rounded-5"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div
+                    class="text-secondary card-title d-flex justify-content-between align-items-center"
+                  >
+                    <p class="text-start">Card title</p>
+                    <p class="text-end">
+                      (4.5)
+                      <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                    </p>
+                  </div>
+                  <p class="card-text fs-4 fw-medium c-tg">
+                    Dietary supplement Health products
+                  </p>
+                  <div
+                    class="bottom-card d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                      >+Add to cart</a
+                    >
+                    <h4 class="c-tg hero-arrow-text">$140.00</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card rounded-5" style="width: 18rem">
+                <img
+                  src="./assets/img/pro4.webp"
+                  class="card-img-top img-fluid rounded-5"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div
+                    class="text-secondary card-title d-flex justify-content-between align-items-center"
+                  >
+                    <p class="text-start">Card title</p>
+                    <p class="text-end">
+                      (4.5)
+                      <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                    </p>
+                  </div>
+                  <p class="card-text fs-4 fw-medium c-tg">
+                    Dietary supplement Health products
+                  </p>
+                  <div
+                    class="bottom-card d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                      >+Add to cart</a
+                    >
+                    <h4 class="c-tg hero-arrow-text">$140.00</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- tab -->
+    <!-- product -->
+
+    <!-- card 1 -->
+    <div class="container">
+      <div class="row my-5">
+        <div class="col-md-4 mb-2">
+          <div class="card bg-tg rounded-4 overflow-hidden">
+            <div class="card-body text-white z-1">
+              <h5 class="card-title">Headache and</h5>
+              <h5 class="card-title">Migraine solutions</h5>
+              <div class="d-flex mb-5">
+                <a class="nav-link nav-btn-border rounded-pill me-0" href="#"
+                  >Browse all</a
+                >
+                <a
+                  class="nav-link rounded-pill c-ty bg-transparent border border-ty rounded-circle nav-go"
+                  ><i class="fa-solid fa-arrow-up-right"></i
+                ></a>
+              </div>
+              <div class="cardtext pt-4">
+                <h4>Flat</h4>
+                <h5 class="c-ty"><span class="h2">10</span> off</h5>
+              </div>
+            </div>
+            <div class="wavy-circle align-self-end position-absolute"></div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-2">
+          <div class="card bg-tg rounded-4 overflow-hidden">
+            <div class="card-body text-white z-1">
+              <h5 class="card-title">Headache and</h5>
+              <h5 class="card-title">Migraine solutions</h5>
+              <div class="d-flex mb-5">
+                <a class="nav-link nav-btn-border rounded-pill me-0" href="#"
+                  >Browse all</a
+                >
+                <a
+                  class="nav-link rounded-pill c-ty bg-transparent border border-ty rounded-circle nav-go"
+                  ><i class="fa-solid fa-arrow-up-right"></i
+                ></a>
+              </div>
+              <div class="cardtext pt-4">
+                <h4>Flat</h4>
+                <h5 class="c-ty"><span class="h2">10</span> off</h5>
+              </div>
+            </div>
+            <div
+              class="wavy-circle bg-nb2 align-self-end position-absolute"
+            ></div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-2">
+          <div class="card bg-tg rounded-4 overflow-hidden">
+            <div class="card-body text-white z-1">
+              <h5 class="card-title">Headache and</h5>
+              <h5 class="card-title">Migraine solutions</h5>
+              <div class="d-flex mb-5">
+                <a class="nav-link nav-btn-border rounded-pill me-0" href="#"
+                  >Browse all</a
+                >
+                <a
+                  class="nav-link rounded-pill c-ty bg-transparent border border-ty rounded-circle nav-go"
+                  ><i class="fa-solid fa-arrow-up-right"></i
+                ></a>
+              </div>
+              <div class="cardtext pt-4">
+                <h4>Flat</h4>
+                <h5 class="c-ty"><span class="h2">10</span> off</h5>
+              </div>
+            </div>
+            <div
+              class="wavy-circle bg-nb3 align-self-end position-absolute"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- card 1 -->
+    <!-- baby food -->
+    <div class="container">
+      <div class="row pt-5 d-flex justify-content-between">
+        <div class="col-md-5">
+          <h1 class="fw-bolder c-tg display-4">Baby Food collection</h1>
+        </div>
+        <div class="col-md-3 text-end ">
+          <div class="d-flex justify-content-end">
+            <a class="nav-link nav-btn rounded-pill me-0 hero-arrow-btn2" href="#"
+              >See all prducts</a
+            >
+            <a class="nav-link rounded-pill c-tg bg-ty rounded-circle nav-go"
+              ><i class="fa-solid fa-arrow-up-right"></i
+            ></a>
+          </div>
+          <div class="text-best text-start fw-medium mt-2 d-flex justify-content-end ">
+            <p>Collection that showcase <br> your unique style</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row py-5">
+        <div class="col-md-3 d-flex justify-content-center">
+          <div class="card rounded-5" style="width: 18rem">
+            <img
+              src="./assets/img/pro1.webp"
+              class="card-img-top img-fluid rounded-5"
+              alt="..."
+            />
+            <div class="card-body">
+              <div
+                class="text-secondary card-title d-flex justify-content-between align-items-center"
+              >
+                <p class="text-start">Card title</p>
+                <p class="text-end">
+                  (4.5)
+                  <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                </p>
+              </div>
+              <p class="card-text fs-4 fw-medium c-tg">
+                Dietary supplement Health products
+              </p>
+              <div
+                class="bottom-card d-flex justify-content-between align-items-center"
+              >
+                <a
+                  href="#"
+                  class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                  >+Add to cart</a
+                >
+                <h4 class="c-tg hero-arrow-text">$140.00</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center">
+          <div class="card rounded-5" style="width: 18rem">
+            <img
+              src="./assets/img/Brahmi-1.webp"
+              class="card-img-top img-fluid rounded-5"
+              alt="..."
+            />
+            <div class="card-body">
+              <div
+                class="text-secondary card-title d-flex justify-content-between align-items-center"
+              >
+                <p class="text-start">Card title</p>
+                <p class="text-end">
+                  (4.5)
+                  <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                </p>
+              </div>
+              <p class="card-text fs-4 fw-medium c-tg">
+                Dietary supplement Health products
+              </p>
+              <div
+                class="bottom-card d-flex justify-content-between align-items-center"
+              >
+                <a
+                  href="#"
+                  class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                  >+Add to cart</a
+                >
+                <h4 class="c-tg hero-arrow-text">$140.00</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center">
+          <div class="card rounded-5" style="width: 18rem">
+            <img
+              src="./assets/img/pro3.webp"
+              class="card-img-top img-fluid rounded-5"
+              alt="..."
+            />
+            <div class="card-body">
+              <div
+                class="text-secondary card-title d-flex justify-content-between align-items-center"
+              >
+                <p class="text-start">Card title</p>
+                <p class="text-end">
+                  (4.5)
+                  <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                </p>
+              </div>
+              <p class="card-text fs-4 fw-medium c-tg">
+                Dietary supplement Health products
+              </p>
+              <div
+                class="bottom-card d-flex justify-content-between align-items-center"
+              >
+                <a
+                  href="#"
+                  class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                  >+Add to cart</a
+                >
+                <h4 class="c-tg hero-arrow-text">$140.00</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center">
+          <div class="card rounded-5" style="width: 18rem">
+            <img
+              src="./assets/img/PLATENZA-SYRUP-100ML.webp"
+              class="card-img-top img-fluid rounded-5"
+              alt="..."
+            />
+            <div class="card-body">
+              <div
+                class="text-secondary card-title d-flex justify-content-between align-items-center"
+              >
+                <p class="text-start">Card title</p>
+                <p class="text-end">
+                  (4.5)
+                  <span><i class="fa-solid fa-star c-ty ms-2"></i></span>
+                </p>
+              </div>
+              <p class="card-text fs-4 fw-medium c-tg">
+                Dietary supplement Health products
+              </p>
+              <div
+                class="bottom-card d-flex justify-content-between align-items-center"
+              >
+                <a
+                  href="#"
+                  class="btn btn-outline-warning c-tg border-2 rounded-pill px-4 hero-arrow-btn3"
+                  >+Add to cart</a
+                >
+                <h4 class="c-tg hero-arrow-text">$140.00</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- baby food -->
+
+    <!-- customers -->
+    <div class="container">
+      <div class="row my-5 d-flex justify-content-between">
+        <div class="col-md-5">
+          <h1 class="fw-bolder c-tg">What our coustomers say</h1>
+        </div>
+        <div class="col-md-3 text-end ">
+          <div class="d-flex justify-content-end">
+            <a class="nav-link nav-btn rounded-pill me-0 hero-arrow-btn2" href="#"
+              >See all prducts</a
+            >
+            <a class="nav-link rounded-pill c-tg bg-ty rounded-circle nav-go"
+              ><i class="fa-solid fa-arrow-up-right"></i
+            ></a>
+          </div>
+          <div class="text-best text-start fw-medium mt-2 d-flex justify-content-end ">
+            <p>Collection that showcase <br> your unique style</p>
+          </div>
+        </div>
+      </div>
+      <div class="row py-5">
+        <div class="col-md-4">
+          <div class="card box-ss border-0 text-center rounded-0">
+            <div class="card-body m-4 mb-0">
+              <span
+                class="position-absolute top-0 start-00 translate-middle badge rounded-circle"
+              >
+                <img
+                  class="rounded-circle w-50"
+                  src="./assets/img/user2jpg.jpg"
+                  alt=""
+                />
+              </span>
+              <h5 class="card-title c-tg">
+                <i class="fa-sharp fa-solid fa-star-sharp"></i
+                ><i class="fa-sharp fa-solid fa-star-sharp"></i
+                ><i class="fa-sharp fa-solid fa-star-sharp"></i
+                ><i class="fa-sharp fa-solid fa-star-sharp"></i
+                ><i class="fa-sharp fa-solid fa-star-sharp-half-stroke"></i>
+              </h5>
+              <p class="card-text d-flex flex-column mt-4 mb-0">
+                <i
+                  class="fa-solid fa-quote-left fs-1 text-secondary opacity-50"
+                ></i>
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s .<i
+                  class="fa-solid fa-quote-right fs-1 align-self-end text-secondary opacity-50"
+                ></i>
+              </p>
+              <h6 class="card-title fw-bold">
+                <span class="text-secondary">― </span>John Doe
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card box-ss border-0 text-center rounded-0">
+            <div class="card-body m-4 mb-0">
+              <span
+                class="position-absolute top-0 start-00 translate-middle badge rounded-circle"
+              >
+                <img
+                  class="rounded-circle w-50"
+                  src="./assets/img/user1.jpg"
+                  alt=""
+                />
+              </span>
+              <h5 class="card-title c-tg">
+                <i class="fa-sharp fa-solid fa-star-sharp"></i
+                ><i class="fa-sharp fa-solid fa-star-sharp"></i
+                ><i class="fa-sharp fa-solid fa-star-sharp"></i
+                ><i class="fa-sharp fa-solid fa-star-sharp"></i
+                ><i class="fa-sharp fa-solid fa-star-sharp-half-stroke"></i>
+              </h5>
+              <p class="card-text d-flex flex-column mt-4 mb-0">
+                <i
+                  class="fa-solid fa-quote-left fs-1 text-secondary opacity-50"
+                ></i>
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s .<i
+                  class="fa-solid fa-quote-right fs-1 align-self-end text-secondary opacity-50"
+                ></i>
+              </p>
+              <h6 class="card-title fw-bold">
+                <span class="text-secondary">― </span>John Doe
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card box-ss border-0 text-center rounded-0">
+            <div class="card-body m-4 mb-0">
+              <span
+                class="position-absolute top-0 start-00 translate-middle badge rounded-circle"
+              >
+                <img
+                  class="rounded-circle w-50"
+                  src="./assets/img/user3.jpg"
+                  alt=""
+                />
+              </span>
+              <h5 class="card-title c-tg">
+                <i class="fa-sharp fa-solid fa-star-sharp"></i
+                ><i class="fa-sharp fa-solid fa-star-sharp"></i
+                ><i class="fa-sharp fa-solid fa-star-sharp"></i
+                ><i class="fa-sharp fa-solid fa-star-sharp"></i
+                ><i class="fa-sharp fa-solid fa-star-sharp-half-stroke"></i>
+              </h5>
+              <p class="card-text d-flex flex-column mt-4 mb-0">
+                <i
+                  class="fa-solid fa-quote-left fs-1 text-secondary opacity-50"
+                ></i>
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s .<i
+                  class="fa-solid fa-quote-right fs-1 align-self-end text-secondary opacity-50"
+                ></i>
+              </p>
+              <h6 class="card-title fw-bold">
+                <span class="text-secondary">― </span>John Doe
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- customers -->
+
+    <!-- Question -->
+    <div class="container">
+      <div class="row pt-5 d-flex justify-content-between">
+        <div class="col-md-5">
+          <h1 class="fw-bolder c-tg display-4">Get a Question?</h1>
+        </div>
+        <div class="col-md-3 text-end ">
+          <div class="d-flex justify-content-end">
+            <a class="nav-link nav-btn rounded-pill me-0 hero-arrow-btn2" href="#"
+              >See all prducts</a
+            >
+            <a class="nav-link rounded-pill c-tg bg-ty rounded-circle nav-go"
+              ><i class="fa-solid fa-arrow-up-right"></i
+            ></a>
+          </div>
+          <div class="text-best text-start fw-medium mt-2 d-flex justify-content-end ">
+            <p>Collection that showcase <br> your unique style</p>
+          </div>
+        </div>
+      </div>
+      <div class="row bg-tg py-5 rounded-4 mb-5">
+        <!-- First column -->
+        <div class="col-md-6">
+          <div class="accordion" id="accordionLeft">
+            <div class="accordion-item m-3 rounded-4">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button rounded-4"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#leftCollapseOne"
+                  aria-expanded="true"
+                  aria-controls="leftCollapseOne"
+                >
+                  Why is Webflow the best nocode tool?
+                </button>
+              </h2>
+              <div
+                id="leftCollapseOne"
+                class="accordion-collapse collapse show text-secondary"
+              >
+                <div class="accordion-body">
+                  Ut enim ad minim veniam quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat aute irure
+                  dolor
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item m-3 rounded-4">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed rounded-4"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#leftCollapseTwo"
+                  aria-expanded="false"
+                  aria-controls="leftCollapseTwo"
+                >
+                  When did Webflow was founded?
+                </button>
+              </h2>
+              <div id="leftCollapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body text-secondary">
+                  Content for the second accordion item.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item m-3 rounded-4">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed rounded-4"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#leftCollapseThree"
+                  aria-expanded="false"
+                  aria-controls="leftCollapseThree"
+                >
+                  NoCode the future of the web?
+                </button>
+              </h2>
+              <div id="leftCollapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body text-secondary">
+                  Content for the third accordion item.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second column (without item #4) -->
+        <div class="col-md-6">
+          <div class="accordion" id="accordionRight">
+            <div class="accordion-item m-3 rounded-4">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed rounded-4"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#rightCollapseTwo"
+                  aria-expanded="false"
+                  aria-controls="rightCollapseTwo"
+                >
+                  How to launch a Webflow website?
+                </button>
+              </h2>
+              <div id="rightCollapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body text-secondary">
+                  Content for the fifth accordion item.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item m-3 rounded-4">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed rounded-4"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#rightCollapseThree"
+                  aria-expanded="false"
+                  aria-controls="rightCollapseThree"
+                >
+                  Who founded BRIX Templates?
+                </button>
+              </h2>
+              <div id="rightCollapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body text-secondary">
+                  Content for the sixth accordion item.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item m-3 rounded-4">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed rounded-4"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#rightCollapseSeven"
+                  aria-expanded="false"
+                  aria-controls="rightCollapseSeven"
+                >
+                  Who are the Webflow founders?
+                </button>
+              </h2>
+              <div id="rightCollapseSeven" class="accordion-collapse collapse">
+                <div class="accordion-body text-secondary">
+                  Content for the seventh accordion item.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Question -->
+
+    <!-- card 2 -->
+    <div class="container">
+      <div class="row my-5">
+        <div class="col-md-6 mb-2">
+          <div class="card card-c-bg-ty border-0 rounded-4 overflow-hidden">
+            <div class="card-body text-white z-1">
+              <h3 class="card-title mt-4 mb-0 c-tg">Enjoy free</h3>
+              <h3 class="card-title mb-0 c-tg">Deliver Within</h3>
+              <h3 class="card-title pb-5 mb-5 c-tg">2 houre</h3>
+              <div class="d-flex pt-5 mt-5 mb-4">
+                <a
+                  class="nav-link bg-tg nav-btn c-ty rounded-pill me-0"
+                  href="#"
+                  >Order Now</a
+                >
+                <a
+                  class="nav-link rounded-pill bg-tg c-ty bg-transparent rounded-circle nav-go"
+                  ><i class="fa-solid fa-arrow-up-right"></i
+                ></a>
+              </div>
+            </div>
+            <div
+              class="wavy-circle2 align-self-end bg-nb4 position-absolute"
+            ></div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-2">
+          <div class="card card-c-bg-ty2 border-0 rounded-4 overflow-hidden">
+            <div class="card-body text-white z-1">
+              <h3 class="card-title mt-4 mb-0 c-tg">Enjoy free</h3>
+              <h3 class="card-title mb-0 c-tg">Deliver Within</h3>
+              <h3 class="card-title pb-5 mb-5 c-tg">2 houre</h3>
+              <div class="d-flex pt-5 mt-5 mb-4">
+                <a
+                  class="nav-link bg-tg nav-btn c-ty rounded-pill me-0"
+                  href="#"
+                  >Get Health and card</a
+                >
+                <a
+                  class="nav-link rounded-pill bg-tg c-ty bg-transparent rounded-circle nav-go"
+                  ><i class="fa-solid fa-arrow-up-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- card 2 -->
+
+    <!-- footer -->
+    <footer class="bg-dark text-white">
+      <div class="container">
+        <div class="row py-4">
+          <div class="col-md-6">
+            <h1>Say Hello 🔥</h1>
+            <h3>btamim1001@gmail.com</h3>
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex justify-content-end">
+              <a class="nav-link bg-ty nav-btn c-tg rounded-pill me-0" href="#"
+                >Order Now</a
+              >
+              <a class="nav-link rounded-pill bg-ty c-tg rounded-circle nav-go"
+                ><i class="fa-solid fa-arrow-up-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" border-top border-bottom border-secondary">
+
+    
+      <div class="container">
+        <div class="row py-5 mt-4">
+          <div class="col-md-5">
+            <div class="footer-logo d-flex align-items-center gap-2">
+              <img src="./assets/img/logo-64 - Copy.png" alt="" />
+              <h3 class="mb-0">MEDSY</h3>
+            </div>
+            <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus modi quod.</p>
+            <div class="icons d-flex gap-3">
+              <a href="#" class="text-white opacity-75 fs-3"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="text-white opacity-75 fs-3"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#" class="text-white opacity-75 fs-3"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#" class="text-white opacity-75 fs-3"><i class="fa-brands fa-facebook-f"></i></a>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <h5>Support</h5>
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="#" class="nav-link">Help</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Getting stanted</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Linktee pro</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>Company</h5>
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="#" class="nav-link">What's new</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Press</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Careers</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h5>Community</h5>
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="#" class="nav-link">Medicare for busiess</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">2023 report</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Charities</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Creator</a></li>
+            </ul>
+          </div>
+        </div>
+
+        </div>
+          </div>
+        <div class="container">
+              <div class="row py-3">
+          <div class="col-md-12 text-secondary text-center">
+            @medsyallrightreserved
+          </div>
+        </div>
+
+      
+    </footer>
+    <!-- footer -->
+
+    <!-- bootstrap cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap cdn -->
+
+    <!-- jquery cdn -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- jquery cdn -->
+
+    <!-- js link -->
+    <script src="./assets/js/main.js"></script>
+    <!-- js link -->
+  </body>
+</html>
+
+
